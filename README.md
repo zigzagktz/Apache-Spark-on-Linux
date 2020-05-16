@@ -13,7 +13,12 @@
 Spark provides a distributed in memory computation for larger dataset. Spark performs very fast joins and aggregation even with millions of rows, which otherwise is a slow process if working with traditional tools. Therefore, in this analysis I have used spark for processing 14 million uber-rides-data. The SparkSQL module within Spark architecture is used, which provides an API for SQL like queries. 
 
 ## Requirements
-Please go through this blog which I wrote in order to setup the environment - 
+Please go through this blog which I wrote in order to setup the environment -   
+Two data files that are used  
+ 1.   https://github.com/fivethirtyeight/uber-tlc-foil-response/blob/master/uber-trip-data/uber-raw-data-janjune-15.csv.zip
+ 2.   https://github.com/fivethirtyeight/uber-tlc-foil-response/blob/master/uber-trip-data/taxi-zone-lookup.csv
+
+> Important Note: Keep both the code files and both data files in same directory.  
 
 ## Architecture
 ![Untitled Diagram (2)](https://user-images.githubusercontent.com/32847030/82127761-14489600-9784-11ea-929d-d8d7276c2a1c.jpg)
